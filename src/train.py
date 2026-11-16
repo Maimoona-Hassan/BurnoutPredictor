@@ -30,3 +30,6 @@ print(f"\nMissing 'Age' values remaining: {df['Age'].isnull().sum()}")
 # 6. View the Age column to check our work
 print("\n--- Checking Age Column ---")
 print(df["Age"].head(10))  # Prints the first 10 ages
+
+df.info()
+df.describe()
